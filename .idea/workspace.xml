@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="208301de-078c-467c-97ae-45c73a0bcb70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ws-api-transference.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ws-api-transference.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -144,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573651085654</updated>
       <workItem from="1573651086920" duration="1562000" />
-      <workItem from="1573654916863" duration="1814000" />
+      <workItem from="1573654916863" duration="10582000" />
     </task>
     <servers />
   </component>

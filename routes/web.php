@@ -20,5 +20,5 @@ Route::get('/', function () {
 //});
 
 Route::get('registro', 'RegisterController@create');
-
-
+Route::post('registro',
+    'RegisterController@store');

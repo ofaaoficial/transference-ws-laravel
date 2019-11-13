@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Route::get('registro', function(){
+//    return 'Formulario de registro';
+//});
+
+Route::get('registro', 'RegisterController@create');
+
+

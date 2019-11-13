@@ -19,6 +19,6 @@ Route::get('/', function () {
 //    return 'Formulario de registro';
 //});
 
-Route::get('registro', 'RegisterController@create');
-Route::post('registro',
-    'RegisterController@store');
+
+
+Route::resource('product', 'ProductController');

@@ -11,7 +11,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="{{ url('registro') }}">Registro</a></li>
+                <li><a href="{{ route('product.index') }}">Products</a></li>
             </ul>
         </nav>
     </header>

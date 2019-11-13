@@ -11,14 +11,15 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#">inicio</a></li>
-                <li><a href="#">otro</a></li>
-
+                <li><a href="{{ url('registro') }}">Registro</a></li>
             </ul>
         </nav>
     </header>
     @if(session('errors'))
-        {{session('errors')}}
+        {{ session('errors') }}
+    @endif
+    @if(session('msg'))
+        {{ session('msg') }}
     @endif
     @yield('content')
 <footer>

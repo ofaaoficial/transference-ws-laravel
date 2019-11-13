@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Validator;
+use App\Register;
 
 class RegisterController extends Controller
 {
@@ -36,7 +37,7 @@ class RegisterController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(),[
-            'username' => 'required',
+            'username' => 'required|unique:registers,username',
             'password' => 'required'
         ]);
 
@@ -44,7 +45,11 @@ class RegisterController extends Controller
             return back()->with('errors', $validator->errors());
 
         // Register with model - ORM Laravel
-        dd($request->all());
+        $data = $request->all();
+        $data['password'] = bcrypt($data['password']);
+
+        Register::create($data);
+        return redirect('/')->with('msg', 'Registrado correctamente.');
     }
 
     /**

@@ -12,4 +12,5 @@ class Register extends Model
         'username',
         'password'
     ];
+    
 }

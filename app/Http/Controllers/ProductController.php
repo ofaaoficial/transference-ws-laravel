@@ -89,7 +89,6 @@ class ProductController extends Controller
      */
     public function destroy($id)
     {
-        dd('hola');
         $product = Product::find($id);
         if(!$product) return back()->with('error', 'Producto no encontrado');
         $product->delete();

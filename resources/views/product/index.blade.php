@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <a href="{{route('product.create')}}">
+    <a href="{{ route('product.create') }}">
         <button>Create</button>
     </a>
     <table>
@@ -21,7 +21,8 @@
                     <a href="{{route('product.edit', $product->id)}}">
                         <button>Editar</button>
                     </a>
-                    <form action="{{route('product.destroy', $product->id)}}">
+
+                    <form action="{{route('product.destroy', $product->id)}}" method="POST">
                         @csrf
                         @method('DELETE')
                         <input type="submit" value="Delete">

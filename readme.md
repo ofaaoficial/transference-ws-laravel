@@ -20,7 +20,7 @@ Explique de manera técnica y con ejemplos básicos la funcionalidad de este gra
 * Helpers principales.
 * Php artisan.
 * HTTP responses & requests.	
-* Estrategia de competencia con este framework además se compartió [ejemplo de mi arquitectura desarrollada para competencia internacional](https://github.com/ofaaoficial/vue-arquitecture-example).
+* Estrategia de competencia con este framework además se compartió [ejemplo de mi arquitectura desarrollada para competencia internacional](https://github.com/ofaaoficial/api-laravel-example).
 * Se creó un [CRUD]( https://developer.mozilla.org/es/docs/Glossary/CRUD) con Laravel explicando arquitectura y con buenas practicas.
 ##  🛠️ Comandos utilizados
 ### 💾 php artisan 
